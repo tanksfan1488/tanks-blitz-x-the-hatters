@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: #12263a;
+}
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+header{
+
+    height:200px ;/*высота блока*/
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-align: center;
+    font-size: xx-large;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+text-shadow: 20px black;
+
+  
+    
+    
+}
+main{
+    height:1000px ;/*высота блока*/
+    background-color: #12263a;
+    color: #ffffff;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+}
+.left{
+width: 50%;
+
+}
+
+.right{
+width: 50%;
+text-align: center;
+
+}
+footer{
+    height:200px ;/*высота блока*/
+    background-color: rgb(0, 11, 22);
+    color: #ffffff;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
